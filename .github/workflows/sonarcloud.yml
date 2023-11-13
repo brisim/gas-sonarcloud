@@ -42,4 +42,4 @@ jobs:
             # mandatory
             -Dsonar.projectKey=githubadvancedsecurity_dev
             -Dsonar.organization=githubadvancedsecurity
-            -Dsonar.java.binaries= **/*.java
+            -Dsonar.java.binaries=**/*.java
