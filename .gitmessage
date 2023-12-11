@@ -28,3 +28,5 @@
 # feat!: send an email to the customer when a product is shipped
 # fix(account): handle case when the account balance drops below zero
 # refactor(transaction): simplify transaction validation logic in the accounting module
+
+
