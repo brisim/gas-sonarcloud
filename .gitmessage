@@ -1,0 +1,30 @@
+# Conventional Commit Message Format:
+# <type>[optional scope]: <description>
+#
+# <type>:
+#   feat     (new feature for the user, not a new feature for build script)
+#   fix      (bug fix for the user, not a fix to a build script)
+#   docs     (changes to the documentation)
+#   style    (formatting, missing semi colons, etc; no production code change)
+#   refactor (refactoring production code, eg. renaming a variable)
+#   test     (adding missing tests, refactoring tests; no production code change)
+#   chore    (updating grunt tasks etc; no production code change)
+#
+# [optional scope]:
+#   Scope could be anything specifying the place of the commit change. For example, 
+#   (dialogue), (menu), (user profile), etc. Keep it concise.
+#
+# <description>:
+#   Short, imperative tense description of the change:
+#
+# Body - If needed, a longer description of the change:
+#   Provide a longer description of the change: 
+#   - What was the motivation?
+#   - What was the problem being solved?
+#
+# Footer -  References to related issues, e.g., "Closes #123", "Refs: #456".
+#
+# Example:
+# feat!: send an email to the customer when a product is shipped
+# fix(account): handle case when the account balance drops below zero
+# refactor(transaction): simplify transaction validation logic in the accounting module
